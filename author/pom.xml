@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.bladyzamosc</groupId>
-	<artifactId>book</artifactId>
+	<artifactId>author</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>book</name>
-	<description>Book project for Spring Boot</description>
+	<name>author</name>
+	<description>Author project for Spring Boot</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -23,6 +23,7 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>9</java.version>
 	</properties>
+
 
 	<dependencies>
 		<dependency>
@@ -92,6 +93,8 @@
 			</snapshots>
 		</pluginRepository>
 	</pluginRepositories>
+
+
 
 
 </project>
